@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Provinsi Bali</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background: #007bff;
+        color: #fff;
+        padding: 10px 0;
+      }
+
+      nav ul {
+        list-style: none;
+        text-align: center;
+        position: relative; /* Added for dropdown positioning */
+      }
+
+      nav ul li {
+        display: inline-block; /* Changed to inline-block for dropdown */
+        margin: 0 15px;
+        position: relative; /* Added for dropdown positioning */
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      /* Dropdown styles */
+      nav ul li .dropdown {
+        display: none; /* Hide dropdown by default */
+        position: absolute; /* Position it absolutely */
+        background-color: #039ad6; /* Match the navbar background */
+        padding: 10px 0; /* Add some padding */
+        z-index: 1000; /* Ensure it appears above other elements */
+      }
+
+      nav ul li:hover .dropdown {
+        display: block; /* Show dropdown on hover */
+      }
+
+      nav ul li .dropdown li {
+        display: block; /* Stack dropdown items vertically */
+        margin: 0; /* Remove margin for dropdown items */
+      }
+
+      nav ul li .dropdown li a {
+        padding: 10px 20px; /* Add padding for dropdown links */
+        display: block; /* Make the entire area clickable */
+      }
+
+      nav ul li .dropdown li a:hover {
+        background-color: #00b35f; /* Change background on hover */
+      }
+      .kolom {
+        margin-bottom: 20px;
+        background: linear-gradient(135deg, #ffffff, #f9f9f9);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .kolom:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .kolom h2 {
+        color: #007bff;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 10px;
+      }
+
+      .kolom img {
+        border-radius: 10px;
+        transition: transform 0.3s;
+      }
+
+      .kolom img:hover {
+        transform: scale(1.05);
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#sejarah bali">Home </a>
+            <ul class="dropdown"></ul>
+          </li>
+
+          <li>
+            <a href="#sejarah bali">Sejarah Bali &#9662;</a>
+            <ul class="dropdown">
+              <li><a href="Sejarah Bali">Sejarah Bali</a></li>
+              <li><a href="Agama di Bali">Agama di Bali</a></li>
+              <li><a href="Peta Provinsi">Peta Provinsi Bali</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#kuliner khas">Kuliner Khas &#9662;</a>
+            <ul class="dropdown">
+              <li><a href="Nasi Campur">Nasi Campur</a></li>
+              <li><a href="Ayam Betutu">Ayam Betutu</a></li>
+              <li><a href="Laklak">Laklak</a></li>
+              <li><a href="Babi Guling">Babi Guling</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#Lagu Daerah">Lagu Daerah &#9662;</a>
+            <ul class="dropdown">
+              <li><a href="Ratu Anom">Ratu Anom</a></li>
+              <li><a href="Macepet Cepetan">Macepet Cepetan</a></li>
+              <li><a href="Meyang Meyong">Meyang Meyong</a></li>
+              <li><a href="Putri Cening Ayu">Putri Cening Ayu</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#alat musik">Alat Musik &#9662;</a>
+            <ul class="dropdown">
+              <li><a href="Gamelan">Gamelan</a></li>
+              <li><a href="Rindik">Rindik</a></li>
+              <li><a href="Gerantang">Gerantang</a></li>
+              <li><a href="Gangsa">Gangsa</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#Adat Upacara">Adat Upacara &#9662;</a>
+            <ul class="dropdown">
+              <li><a href="Ngaben">Ngaben</a></li>
+              <li><a href="Melasti">Melasti</a></li>
+              <li><a href="Mepandes">Mepandes</a></li>
+              <li><a href="Odalan">Odalan</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#Tari Tradisional">Tari Tradisional &#9662;</a>
+            <ul class="dropdown">
+              <li><a href="Tari Pendet">Tari Pendet</a></li>
+              <li><a href="Tari Kecak">Tari Kecak</a></li>
+              <li><a href="Tari Boreng">Tari Boreng</a></li>
+              <li><a href="Tari Topeng">Tari Topeng</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Bagian 2 -->
+        <div class="kolom">
+          <h2>Agama di Provinsi Bali</h2>
+          <img src="agama.jpg" alt="image" height="350" width="600" />
+          <p>
+            Berdasarkan data Kementerian Dalam Negeri pada akhir tahun 2023,
+            penduduk Bali berjumlah 4.344.554 jiwa dengan mayoritas etnis Bali.
+            Data Kementerian Agama mencatat bahwa 86,53% warga provinsi Bali
+            menganut agama Hindu. Agama lainnya adalah Islam sebanyak 10,20%,
+            kemudian Kekristenan sebanyak 2,58% (dengan rincian Protestan
+            sebanyak 1,73% dan Katholik sebanyak 0,85%). Sebagian lagi menganut
+            agama Buddha sebanyak 0,68% yang umumnya berada di Kota Denpasar,
+            kemudian Konghucu sebanyak 0,01%, dan penganut kepercayaan kurang
+            dari 0,01%.
+          </p>
+          <br />
+          <p>
+            Masyarakat suku Bali umumnya beragama Hindu. Sementara penduduk
+            Jawa, Sunda, Sasak, Melayu, umumnya beragama Islam, dan beberapa
+            orang asli suku Bali juga ada yang memeluk agama Islam. Sementara
+            pemeluk agama Kristen umumnya berasal dari penduduk Nusa Tenggara
+            Timur, kemudian Papua, suku Batak, Minahasa, Tionghoa. Dan ada juga
+            satu desa yakni desa Blimbing Sari di kecamatan Melaya Jembrana,
+            tidak jauh dari Pelabuhan Gilimanuk, sebuah desa Kristen di mana
+            warganya adalah asli suku Bali, bahkan gerejanya bentuknya mirip
+            Pura.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
